@@ -19,15 +19,11 @@ COPY . .
 # 6️⃣ Installer les dépendances PHP
 RUN composer install --no-dev --optimize-autoloader
 
-# 7️⃣ Installer les dépendances JS et builder les assets
-RUN npm install
-RUN npm run build
+# Générer la clé d'application si nécessaire
+RUN php artisan key:generate
 
-# 8️⃣ Copier .env.example si besoin (optionnel, Render prendra les variables d'environnement)
-# COPY .env.example .env
-
-# 9️⃣ Exposer le port pour Render
-EXPOSE 8080
+# Expose le port Render
+EXPOSE $PORT
 
 # 10️⃣ Lancer le serveur PHP minimal, servant le dossier public
 CMD php -S 0.0.0.0:${PORT:-8080} -t public
