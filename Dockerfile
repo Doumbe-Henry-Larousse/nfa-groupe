@@ -16,7 +16,6 @@ COPY . .
 RUN composer install --no-dev --optimize-autoloader
 
 # Générer la clé d'application si nécessaire
-RUN php artisan key:generate
 
 # Expose le port Render
 EXPOSE $PORT
