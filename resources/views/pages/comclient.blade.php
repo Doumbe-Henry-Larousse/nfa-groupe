@@ -15,7 +15,7 @@
             J'ai engagé NFA Groupe pour le mé,age et me déneigement - Tout est fait à temps et avec soin
           </p>
           <div class="testimonial-profile">
-            <img src="images/resource/team1-1.jpg" alt="">
+            <img src="{{ asset('images/resource/team1-1.jpg') }}" alt="">
             <div>
               <div class="testimonial-name">Jean M</div>
               <div class="testimonial-role">Chef d'entreprise</div>
@@ -33,7 +33,7 @@
             Leur aide pour notre déménagement a changé notre vie. Organisation et efficacité !
           </p>
           <div class="testimonial-profile">
-            <img src="images/resource/testi3-thumb1.jpg" alt="">
+            <img src="{{ asset('images/resource/testi3-thumb1.jpg') }}" alt="">
             <div>
               <div class="testimonial-name">Aline T</div>
               <div class="testimonial-role">Infimière</div>
@@ -51,7 +51,7 @@
            La qualité du service est impecable, n'hesiter surtout pas a leur contacter pour vos besoins.
           </p>
           <div class="testimonial-profile">
-            <img src="images/resource/testi-1.jpg" alt="">
+            <img src="{{ asset('images/resource/testi-1.jpg') }}" alt="">
             <div>
               <div class="testimonial-name">Prisca T</div>
               <div class="testimonial-role">Chef d'entreprise</div>

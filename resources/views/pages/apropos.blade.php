@@ -20,7 +20,7 @@
         <!-- Image Column -->
         <div class="image-column col-lg-6 col-md-12 col-sm-12">
           <div class="inner-column">
-            <figure class="image overlay-anim reveal"><img src="images/banner/accueil-2.jpg" alt="Image"></figure>
+            <figure class="image overlay-anim reveal"><img src="{{ asset('images/banner/accueil-2.jpg') }}" alt="Image"></figure>
             <div class="title-box">
               <h5 class="title">Vivre mieux, dans un cadre impeccable</h5>
             </div>

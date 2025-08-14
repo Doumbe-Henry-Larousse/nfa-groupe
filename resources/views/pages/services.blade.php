@@ -12,8 +12,8 @@
         <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
           <div class="inner-box">
             <figure class="image">
-              <img src="images/resource/service-nfa-1.png" alt="Image">
-              <img src="images/resource/service-nfa-1.png" alt="Image">
+              <img src="{{ asset('images/resource/service-nfa-1.png') }}" alt="Image">
+              <img src="{{ asset('images/resource/service-nfa-1.png') }}" alt="Image">
             </figure>
             <div class="content">
               <!--<div class="bg-color"></div>-->
@@ -33,8 +33,8 @@
         <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
           <div class="inner-box">
             <figure class="image">
-              <img src="images/resource/services-nfa-2.png" alt="Image">
-              <img src="images/resource/services-nfa-2.png" alt="Image">
+              <img src="{{ asset('images/resource/services-nfa-2.png') }}" alt="Image">
+              <img src="{{ asset('images/resource/services-nfa-2.png') }}" alt="Image">
             </figure>
             <div class="content">
               <!--<div class="bg-color"></div>
@@ -55,8 +55,8 @@
         <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
           <div class="inner-box">
             <figure class="image">
-              <img src="images/resource/services-nfa-3.png" alt="Image">
-              <img src="images/resource/services-nfa-3.png" alt="Image">
+              <img src="{{ asset('images/resource/services-nfa-3.png') }}" alt="Image">
+              <img src="{{ asset('images/resource/services-nfa-3.png') }}" alt="Image">
             </figure>
             <div class="content">
               <!--<div class="bg-color"></div>
@@ -75,8 +75,8 @@
         <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
           <div class="inner-box">
             <figure class="image">
-              <img src="images/resource/services-nfa-4.png" alt="Image">
-              <img src="images/resource/services-nfa-4.png" alt="Image">
+              <img src="{{ asset('images/resource/services-nfa-4.png') }}" alt="Image">
+              <img src="{{ asset('images/resource/services-nfa-4.png') }}" alt="Image">
             </figure>
             <div class="content">
               <!--<div class="bg-color"></div>

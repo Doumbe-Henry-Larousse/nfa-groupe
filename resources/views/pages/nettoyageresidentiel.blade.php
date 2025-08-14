@@ -35,13 +35,13 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\nr-1.png" alt="" />
+								<img src="{{ asset('images\galerie\nr-1.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
 									data-fancybox="gallery"
-									data-src="images\galerie\nr-1.png"
-									href="images\galerie\nr-1.png"><i class="fa fa-search-plus"></i>
+									data-src="{{ asset('images\galerie\nr-1.png') }}"
+									href="{{ asset('images\galerie\nr-1.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -49,12 +49,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\nr-2.png" alt="" />
+								<img src="{{ asset('images\galerie\nr-2.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\nr-2.png"
-									href="images\galerie\nr-2.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\nr-2.png') }}"
+									href="{{ asset('images\galerie\nr-2.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -62,12 +62,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\nr-3.png" alt="" />
+								<img src="{{ asset('images\galerie\nr-3.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\nr-3.png"
-									href="images\galerie\nr-3.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\nr-3.png') }}"
+									href="{{ asset('images\galerie\nr-3.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>

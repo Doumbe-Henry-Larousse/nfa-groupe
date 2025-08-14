@@ -35,13 +35,13 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\ad-1.png" alt="" />
+								<img src="{{ asset('images\galerie\ad-1.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
 									data-fancybox="gallery"
-									data-src="images\galerie\ad-1.png"
-									href="images\galerie\ad-1.png"><i class="fa fa-search-plus"></i>
+									data-src="{{ asset('images\galerie\ad-1.png') }}"
+									href="{{ asset('images\galerie\ad-1.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -49,12 +49,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\ad-2.png" alt="" />
+								<img src="{{ asset('images\galerie\ad-2.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\ad-2.png"
-									href="images\galerie\ad-2.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\ad-2.png') }}"
+									href="{{ asset('images\galerie\ad-2.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -62,12 +62,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\ad-3.png" alt="" />
+								<img src="{{ asset('images\galerie\ad-3.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\ad-3.png"
-									href="images\galerie\ad-3.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\ad-3.png') }}"
+									href="{{ asset('images\galerie\ad-3.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -106,13 +106,13 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\p-1.png" alt="" />
+								<img src="{{ asset('images\galerie\p-1.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
 									data-fancybox="gallery"
-									data-src="images\galerie\p-1.png"
-									href="images\galerie\p-1.png"><i class="fa fa-search-plus"></i>
+									data-src="{{ asset('images\galerie\p-1.png') }}"
+									href="{{ asset('images\galerie\p-1.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -120,12 +120,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\p-2.png" alt="" />
+								<img src="{{ asset('images\galerie\p-2.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\p-2.png"
-									href="images\galerie\p-2.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\p-1.png') }}"
+									href="{{ asset('images\galerie\p-1.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -133,12 +133,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\p-3.png" alt="" />
+								<img src="{{ asset('images\galerie\p-3.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\p-3.png"
-									href="images\galerie\p-3.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\p-1.png') }}"
+									href="{{ asset('images\galerie\p-1.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -173,13 +173,13 @@
             <div class="col-md-6 col-lg-4">
               <div class="single-gallery mb-30 photo-card">
                 <div class="gallery-img">
-                  <img src="images\galerie\ac-1.png" alt="" />
+                  <img src="{{ asset('images\galerie\ac-1.png') }}" alt="" />
                 </div>
                 <div class="gallery-icon">
                   <a 
                     data-fancybox="gallery"
-                    data-src="images\galerie\ac-1.png"
-                    href="images\galerie\ac-1.png"><i class="fa fa-search-plus"></i>
+                    data-src="{{ asset('images\galerie\ac-1.png') }}"
+                    href="{{ asset('images\galerie\ac-1.png') }}"><i class="fa fa-search-plus"></i>
                   </a>
                 </div>
               </div>
@@ -187,12 +187,12 @@
             <div class="col-md-6 col-lg-4">
               <div class="single-gallery mb-30 photo-card">
                 <div class="gallery-img">
-                  <img src="images\galerie\ac-2.png" alt="" />
+                  <img src="{{ asset('images\galerie\ac-2.png') }}" alt="" />
                 </div>
                 <div class="gallery-icon">
                   <a 
-                    data-fancybox="gallery" data-src="images\galerie\ac-2.png"
-                    href="images\galerie\ac-2.png"><i class="fa fa-search-plus"></i>
+                    data-fancybox="gallery" data-src="{{ asset('images\galerie\ac-2.png') }}"
+                    href="{{ asset('images\galerie\ac-2.png') }}"><i class="fa fa-search-plus"></i>
                   </a>
                 </div>
               </div>
@@ -200,12 +200,12 @@
             <div class="col-md-6 col-lg-4">
               <div class="single-gallery mb-30 photo-card">
                 <div class="gallery-img">
-                  <img src="images\galerie\ac-3.png" alt="" />
+                  <img src="{{ asset('images\galerie\ac-3.png') }}" alt="" />
                 </div>
                 <div class="gallery-icon">
                   <a 
-                    data-fancybox="gallery" data-src="images\galerie\ac-3.png"
-                    href="images\galerie\ac-3.png"><i class="fa fa-search-plus"></i>
+                    data-fancybox="gallery" data-src="{{ asset('images\galerie\ac-3.png') }}"
+                    href="{{ asset('images\galerie\ac-3.png') }}"><i class="fa fa-search-plus"></i>
                   </a>
                 </div>
               </div>
@@ -242,13 +242,13 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\neige-1.png" alt="" />
+								<img src="{{ asset('images\galerie\neige-1.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
 									data-fancybox="gallery"
-									data-src="images\galerie\neige-1.png"
-									href="images\galerie\neige-1.png"><i class="fa fa-search-plus"></i>
+									data-src="{{ asset('images\galerie\neige-1.png') }}"
+									href="{{ asset('images\galerie\neige-1.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -256,12 +256,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\neige-2.png" alt="" />
+								<img src="{{ asset('images\galerie\neige-2.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\neige-2.png"
-									href="images\galerie\neige-2.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\neige-2.png') }}"
+									href="{{ asset('images\galerie\neige-2.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -269,12 +269,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\neige-3.png" alt="" />
+								<img src="{{ asset('images\galerie\neige-3.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\neige-3.png"
-									href="images\galerie\neige-3.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\neige-3.png') }}"
+									href="{{ asset('images\galerie\neige-3.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -311,13 +311,13 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\lv-1.png" alt="" />
+								<img src="{{ asset('images\galerie\lv-1.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
 									data-fancybox="gallery"
-									data-src="images\galerie\lv-1.png"
-									href="images\galerie\lv-1.png"><i class="fa fa-search-plus"></i>
+									data-src="{{ asset('images\galerie\lv-1.png') }}"
+									href="{{ asset('images\galerie\lv-1.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -325,12 +325,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\lv-2.png" alt="" />
+								<img src="{{ asset('images\galerie\lv-2.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\lv-2.png"
-									href="images\galerie\lv-2.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\lv-2.png') }}"
+									href="{{ asset('images\galerie\lv-2.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -338,12 +338,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\lv-3.png" alt="" />
+								<img src="{{ asset('images\galerie\lv-3.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\lv-3.png"
-									href="images\galerie\lv-3.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\lv-3.png') }}"
+									href="{{ asset('images\galerie\lv-1.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -380,13 +380,13 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\lessive-1.png" alt="" />
+								<img src="{{ asset('images\galerie\lessive-1.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
 									data-fancybox="gallery"
-									data-src="images\galerie\lessive-1.png"
-									href="images\galerie\lessive-1.png"><i class="fa fa-search-plus"></i>
+									data-src="{{ asset('images\galerie\lessive-1.png') }}"
+									href="{{ asset('images\galerie\lessive-1.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -394,12 +394,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\lessive-2.png" alt="" />
+								<img src="{{ asset('images\galerie\lessive-2.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\lessive-2.png"
-									href="images\galerie\lessive-2.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\lessive-2.png') }}"
+									href="{{ asset('images\galerie\lessive-2.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -407,12 +407,12 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="single-gallery mb-30 photo-card">
 							<div class="gallery-img">
-								<img src="images\galerie\lessive-3.png" alt="" />
+								<img src="{{ asset('images\galerie\lessive-3.png') }}" alt="" />
 							</div>
 							<div class="gallery-icon">
 								<a 
-									data-fancybox="gallery" data-src="images\galerie\lessive-3.png"
-									href="images\galerie\lessive-3.png"><i class="fa fa-search-plus"></i>
+									data-fancybox="gallery" data-src="{{ asset('images\galerie\lessive-3.png') }}"
+									href="{{ asset('images\galerie\lessive-3.png') }}"><i class="fa fa-search-plus"></i>
 								</a>
 							</div>
 						</div>

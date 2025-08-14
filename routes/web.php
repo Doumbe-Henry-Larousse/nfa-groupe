@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DevisController;
-
+use App\Http\Controllers\NewsletterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -53,3 +53,9 @@ Route::post('/contact', [ContactController::class, 'submit'])->name('contact.sub
 Route::get('/devis', [DevisController::class, 'show'])->name('demander.devis');
 Route::post('/devis', [DevisController::class, 'submit'])->name('devis.submit');
 
+
+Route::post('/newsletter', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
+
+Route::get('/newsletter', function(){
+    return redirect('/');
+});

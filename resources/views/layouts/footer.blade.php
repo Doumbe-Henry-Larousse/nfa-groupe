@@ -75,9 +75,18 @@
               <div class="text">Au-delà des frontières, notre aide vous accompagne</div>
               <!-- Newsletter Form -->
               <div class="newsletter-form">
+                @if (session('success'))
+						      <div class="alert alert-success">
+							      {{ session('success') }}
+						      </div>
+					      @endif
                 <div class="form-group">
-                  <input type="email" name="Email" placeholder="Email....." required>
-                  <button type="submit" class="form-btn"><i class="fa fa-paper-plane"></i></button>
+                  <form action="{{ route('newsletter.subscribe') }}" method="POST">
+                    @csrf
+                    <input type="text" name="text" placeholder="email....." required value="{{ old('newsletter') }}">
+                    <button type="submit" class="form-btn"><i class="fa fa-paper-plane"></i></button>
+                  </form>
+
                 </div>
               </div>
             </div>
