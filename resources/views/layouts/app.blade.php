@@ -4,6 +4,9 @@
 
 <meta charset="utf-8">
 <title>@yield('title', 'nfa groupe')</title>
+<!-- chargement des fichiers css et js avec vite-->
+@vite(['resources/css/app.css', 'resources/js/app.js'])
+
 <!-- Stylesheets -->
 <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
