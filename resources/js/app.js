@@ -17,7 +17,7 @@ import '../../public/js/owl.js';
 import '../../public/js/popper.min.js';
 import '../../public/js/script.js';
 import '../../public/js/ScrollTrigger.min.js';
-import '../../public/js/select2';
+import '../../public/js/select2.min.js';
 import '../../public/js/splitType.js';
 import '../../public/js/wow.js';
 
